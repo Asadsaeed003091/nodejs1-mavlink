@@ -8,14 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/omcaree/node-mavlink.git"
+    "url": "https://github.com/Asadsaeed003091/nodejs1-mavlink.git"
   },
   "keywords": [
     "node.js",
     "mavlink"
   ],
   "dependencies": {
-	"xml2js": ""
+    "serialport": "^10.4.0",
+    "xml2js": ""
   },
   "author": "Owen McAree",
   "license": "BSD",

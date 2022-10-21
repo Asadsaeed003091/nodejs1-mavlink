@@ -3,9 +3,11 @@ var mavlink = require('./src/mavlink.js');
 
 
 //Open serial port
-var port = new SerialPort('/dev/ttyO1', {
-	baudrate: 57600
-});
+const port = new SerialPort({
+	path:'COM6',
+	baudRate:57600
+  });
+
 
 //When port is open, start up mavlink
 port.on('open', function() {
